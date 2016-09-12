@@ -1,6 +1,6 @@
 var webpack = require('webpack');
 
-var port = process.env.PORT || 8080;
+var port = process.env.PORT || 8081;
 var host = process.env.IP || '127.0.0.1';
 
 var config = {

@@ -1,6 +1,6 @@
 import Immutable from 'immutable'
 
-let listItems = Array.from(new Array(5000), (val, index) => {
+let listItems = Array.from(new Array(50000), (val, index) => {
     return {
         text: 'test'
       , number: index
