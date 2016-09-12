@@ -4,7 +4,7 @@
   "description": "Small performance test without container components connected to redux",
   "scripts": {
     "build": "NODE_ENV=production webpack --config webpack.config.production.js",
-    "dev": "$(npm root)/.bin/webpack-dev-server --progress --inline --hot"
+    "dev": "$(npm root)/.bin/webpack-dev-server"
   },
   "author": "akydd@ualberta.net",
   "license": "ISC",
